@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart UI Preferences</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Smart Preferences</h1>
+
+    <div class="controls">
+      <button id="toggleThemeBtn">Toggle Theme</button>
+
+      <label for="fontSizeSelect">Font Size:</label>
+      <select id="fontSizeSelect">
+        <option value="small">Small</option>
+        <option value="medium" selected>Medium</option>
+        <option value="large">Large</option>
+      </select>
+
+      <label for="layoutSelect">Layout:</label>
+      <select id="layoutSelect">
+        <option value="full">Full Width</option>
+        <option value="boxed">Boxed</option>
+      </select>
+    </div>
+
+    <div class="preview" id="previewBox">
+      <p>This is your preview area. Changes appear here instantly with animations!</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
